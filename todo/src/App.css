@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  background-color: #61dafb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.todo-list-container {
+  width: 50vw;
+  height: 70vh;
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: #fff;
+  overflow-y: scroll;
+}
+
+.input-feild {
+  width: 60%;
+  border: #61dafb solid 1px;
+  border-radius: 12px;
+  height: 30px;
+  padding: 5px;
+}
+
+.btn-search {
+  width: 120px;
+  height: 40px;
+  padding: 5px;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: rgb(8, 8, 126);
+  color: #fff;
+  border: none;
+  margin-left: 10px;
+}
+
+.btn-clear {
+  width: 120px;
+  height: 40px;
+  padding: 5px;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: rgb(243, 35, 24);
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+}
+
+.table {
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
